@@ -1,8 +1,4 @@
-# react-vite-component-template
-
-Template for building a **React component library**, with **Vite**, **TypeScript** and **Storybook**.
-
-Check my post about this repository [here](https://victorlillo.dev/blog/react-typescript-vite-component-library).
+# The better spotify UI Kit
 
 ## Features
 
@@ -13,8 +9,6 @@ Check my post about this repository [here](https://victorlillo.dev/blog/react-ty
 - 🌳 **Tree shaking**, for not distributing dead-code.
 
 - 📚 **Storybook** for live viewing the components.
-
-- 🎨 **PostCSS** for processing our CSS.
 
 - 🖌️ **CSS Modules** in development, compiled CSS for production builds.
 
