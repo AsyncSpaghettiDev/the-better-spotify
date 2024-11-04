@@ -8,6 +8,8 @@
     "apps/*"
   ],
   "scripts": {
+    "storybook": "npm run storybook --prefix packages/ui-kit",
+    "dev:ui-kit": "npm run dev --prefix packages/ui-kit",
     "build:ui-kit": "npm run build --prefix packages/ui-kit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.8.7",
+    "sass": "^1.80.6",
     "vite-plugin-dts": "^4.3.0"
   }
 }

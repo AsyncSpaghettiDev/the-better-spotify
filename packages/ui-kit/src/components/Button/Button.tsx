@@ -1,4 +1,4 @@
-import styles from './styles.module.css'
+import styles from './Button.styles.module.scss'
 import clsx from 'clsx'
 
 interface ComponentProps extends React.ComponentProps<'button'> {
@@ -7,7 +7,7 @@ interface ComponentProps extends React.ComponentProps<'button'> {
   label: string
 }
 
-export function MyButton({ primary = false, size = 'medium', label, ...props }: ComponentProps) {
+export function Button({ primary = false, size = 'medium', label, ...props }: ComponentProps) {
   const style = clsx(styles.button, {
     [styles['button--primary']]: primary,
     [styles[`button--${size}`]]: size,
